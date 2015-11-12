@@ -1,1 +1,1 @@
-# android_system_device_htc_shooteru
+HTC Evo3D GSM device tree
