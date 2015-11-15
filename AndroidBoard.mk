@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-KERNEL_DEFCONFIG := shooteru_defconfig
+KERNEL_DEFCONFIG := shooter_u_defconfig
 KERNEL_DIR := kernel
 
 -include $(TOP)/$(KERNEL_DIR)/AndroidKernel.mk
