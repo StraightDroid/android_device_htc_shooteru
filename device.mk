@@ -20,4 +20,11 @@
 #
 # Everything in this directory will become public
 
-# https://github.com/jamesonwilliams/device_lge_hammerhead/blob/android-4.4_r1.1/device.mk
+DEVICE_PACKAGE_OVERLAYS := \
+    device/htc/shooteru/overlay
+
+# Live Wallpapers
+PRODUCT_PACKAGES += \
+    LiveWallpapersPicker \
+    librs_jni
+
