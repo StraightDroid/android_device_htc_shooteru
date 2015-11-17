@@ -34,5 +34,3 @@ PRODUCT_MANUFACTURER := HTC
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
 $(call inherit-product, device/htc/shooteru/device.mk)
-$(call inherit-product-if-exists, vendor/htc/shooteru/device-vendor.mk)
-

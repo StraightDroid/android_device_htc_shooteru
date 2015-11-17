@@ -28,3 +28,5 @@ PRODUCT_PACKAGES += \
     LiveWallpapersPicker \
     librs_jni
 
+## htc vendor files load also external vendors
+$(call inherit-product, vendor/htc/shooteru/device-vendor.mk)
