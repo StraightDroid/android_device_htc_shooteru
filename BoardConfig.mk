@@ -14,6 +14,10 @@
 # limitations under the License.
 #
 
+# Platform
+TARGET_BOARD_PLATFORM := msm8660
+TARGET_BOARD_PLATFORM_GPU := qcom-adreno200
+
 TARGET_ARCH_VARIANT := armv7-a
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
@@ -50,3 +54,6 @@ TARGET_QCOM_HDMI_OUT := true
 TARGET_QCOM_HDMI_RESOLUTION_AUTO := true
 BOARD_EGL_CFG := vendor/qcom/shooteru/adreno2xx/system/lib/egl/egl.cfg
 COMMON_GLOBAL_CFLAGS += -DQCOM_HARDWARE
+
+BOARD_HAVE_BLUETOOTH := true
+
